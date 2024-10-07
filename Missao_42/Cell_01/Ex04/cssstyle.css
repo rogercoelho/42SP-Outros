@@ -1,0 +1,42 @@
+
+
+.container {
+    background-color: pink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.div {
+
+    display: flexbox;
+    grid-template-columns: 2em 2em 10fr 2fr 2fr 2fr 2fr 5em 5em;
+}
+
+.box {
+    display: flexbox;
+    grid-template-columns: repeat(auto-fit, minmax(var(--column-width-min), 1fr));
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    border-top: 1px dashed red;
+  }
+
+footer{
+    display: flex;
+    justify-content: right;
+    font-family: monospace;
+    font-style: italic;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>mudar</title>
+    <link rel="stylesheet" href="backgroud.css">
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+    <button onclick="mudar()"> Mudar Cor</button>
+    <script type="text/javascript">
+        function mudar(){
+            let rRed = Math.floor(Math.random()*255)
+            let rGreen = Math.floor(Math.random()*255)
+            let rBlue = Math.floor(Math.random()*255)
+            let nRgb = "rgb("+ rRed + ", " + rGreen + ", " + rBlue+")"
+            document.body.style.backgroundColor = nRgb
+
+            if((rBlue+rBlue+rGreen)<=320){
+                document.querySelector("button").style.color = "white"
+                document.querySelector("button").style.borderColor = "white"
+            }
+            else{
+                document.querySelector("button").style.color = "black"
+                document.querySelector("button").style.borderColor = "black"
+            }
+        }
+    </script>
+
+</body>
+</html>

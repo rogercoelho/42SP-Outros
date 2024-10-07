@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>mudar</title>
+    <link rel="stylesheet" href="backgroud.css">
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <button onclick="mudar()"> Mudar Cor</button>
+    <script type="text/javascript">
+        function mudar(){
+            let rRed = Math.floor(Math.random()*255)
+            let rGreen = Math.floor(Math.random()*255)
+            let rBlue = Math.floor(Math.random()*255)
+            let nRgb = "rgb("+ rRed + ", " + rGreen + ", " + rBlue+")"
+            $("body").css("background-color", nRgb);
+            
+            
+            if((rBlue+rBlue+rGreen)<=320){
+                $("button").css({"color": "white", "border-color": "white"});
+                $("button").css({"color": "white", "color": "white"});
+            }
+            else{
+                $("button").css({"color": "black", "color": "black"});
+                ("button").css({"color": "black", "border-color": "black"});
+            } 
+            
+        }
+    </script>
+</body>
+</html>

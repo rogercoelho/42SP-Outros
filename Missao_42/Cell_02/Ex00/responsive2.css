@@ -1,0 +1,25 @@
+body {
+	font-family: monospace;
+	font-style: oblique;
+	color: white
+	
+}
+.formata-tabela{
+	font-style: oblique;
+	width: 100%;
+	height: 100%;
+}
+
+.td1{
+	background-color: rgb(170, 209, 106);
+	width:50%; 
+	height:50%;
+	font-size: 25px;
+}
+
+.td2{
+	background-color: rgb(109, 168, 207);
+	width:50%; 
+	height: 50%;
+	font-size: 25px;
+}

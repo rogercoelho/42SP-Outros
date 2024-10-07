@@ -1,0 +1,57 @@
+.container {
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: rgb(94, 44, 158);
+}
+.card{
+    display: flex;
+    flex-direction: column;}
+.flex-container-1{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: rgba(28, 221, 157, 0.747);
+}
+.flex-container-2{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: rgba(109, 128, 189, 0.747);
+}
+.flex-container-3{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: rgba(0, 0, 0, 0.397);
+}
+.flex-container-4{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: rgb(0, 0, 0);
+}
